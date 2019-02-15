@@ -1,3 +1,39 @@
 *{
     margin:0;
 }
+
+header{
+    padding: 10vh 0 ;
+    width: 100%;
+    background-color:rgb(41, 41, 41); 
+
+    border-bottom: 3px solid rgb(95, 95, 95);
+ }
+
+ #titulo{
+     font: 28px arial, sans-serif;
+     color: rgb(145, 144, 144);
+     font-weight: bold;   
+     margin-left: 2vh;
+ }
+ #main{
+     height: 100%;
+     width: 100%;
+
+     background-color: white;
+ }
+ #foto-perfil{
+     position: absolute;
+     margin: 0px 0px 0px 43%;
+     width: 13%;
+     border-radius: 50%;
+     border: 5px solid rgb(255, 255, 255); 
+ }
+ footer{
+     position: absolute;
+     bottom: 0;
+     padding: 5vh 0px;
+     width: 100%;
+     background-color:rgb(41, 41, 41); 
+
+ }
