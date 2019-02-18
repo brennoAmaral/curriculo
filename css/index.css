@@ -6,8 +6,9 @@ header{
     padding: 10vh 0 ;
     width: 100%;
     background-color:rgb(41, 41, 41); 
-
-    border-bottom: 3px solid rgb(95, 95, 95);
+    background-image: url(../img/programacao.jpg);
+    height: 100%;
+    border-bottom: 1px solid rgb(122, 119, 160);
  }
 
  #titulo{
@@ -22,12 +23,32 @@ header{
 
      background-color: white;
  }
+ #capa{
+     
+     
+ }
  #foto-perfil{
      position: absolute;
      margin: 0px 0px 0px 43%;
      width: 13%;
      border-radius: 50%;
      border: 5px solid rgb(255, 255, 255); 
+ }
+ #titulo{
+     text-align: center;
+     margin:8.8% 0% 0% 0%;
+ }
+ .name{
+     font: 25px arial, sans-serif;
+     font-weight: bold;
+     color: rgb(43, 49, 70);
+ }
+ .descricao{
+     font: 20px arial,sans-serif;
+     font-weight: bold;
+     color: rgb(43, 49, 70);
+
+
  }
  footer{
      position: absolute;
